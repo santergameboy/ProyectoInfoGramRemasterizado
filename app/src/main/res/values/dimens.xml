@@ -5,5 +5,7 @@
     <dimen name="login_marginTop">20dp</dimen>
     <dimen name="imageView_layoutHeight">150dp</dimen>
     <dimen name="textView_textSize">18sp</dimen>
+    <dimen name="padding_createAccount">40dp</dimen>
+    <dimen name="maginTop_create_account">35dp</dimen>
 
 </resources>

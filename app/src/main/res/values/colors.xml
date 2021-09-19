@@ -11,11 +11,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     
-    <color name="editText_textColorHint">#FFFFFFFF</color>
-    <color name="editText_TextColorPrimary">#FFFFFFFF</color>
-    <color name="editText_colorControlNormal">#FFFFFFFF</color>
-    <color name="editText_colorControlActivated">#FFFFFFFF</color>
-    <color name="button_textColor">#FFFFFF</color>
+    <color name="editText_white">#FFFFFF</color>
+    <color name="editText_black">#000000</color>
+
     
     <color name="textView_textColor">#FFFFFF</color>
 
