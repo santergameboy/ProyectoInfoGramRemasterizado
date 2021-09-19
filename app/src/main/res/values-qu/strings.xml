@@ -4,4 +4,6 @@
     <string name="nombre_de_usuario">Suti</string>
     <string name="contrasena">Sullaw</string>
     <string name="button_text">LOGIN</string>
+    <string name="no_tienes_cuenta">"No tienes cuenta?, "</string>
+    <string name="crea_una_aqui">Crea una aquí..</string>
 </resources>
