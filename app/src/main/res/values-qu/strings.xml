@@ -3,4 +3,5 @@
     <string name="app_name">InfGra</string>
     <string name="nombre_de_usuario">Suti</string>
     <string name="contrasena">Sullaw</string>
+    <string name="button_text">LOGIN</string>
 </resources>
