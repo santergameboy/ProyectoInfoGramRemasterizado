@@ -12,4 +12,8 @@
     <string name="confirme_contrasena">Confirme Contraseña</string>
     <string name="unete">Únete</string>
     <string name="title_crear_cuenta">Crear Cuenta</string>
+    <string name="masha_oso_cardview">Masha Oso</string>
+    <string name="hace_cardview">Hace</string>
+    <string name="dias_cardview">, 4 dias</string>
+    <string name="me_gusta_cardview">10 me gusta</string>
 </resources>
