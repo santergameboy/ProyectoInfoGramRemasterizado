@@ -7,6 +7,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.infgra.view.ContainerActivity;
+import com.example.infgra.view.CreateAccountActivity;
+
 public class LoginActivity extends AppCompatActivity {
 
     @Override
@@ -16,8 +19,13 @@ public class LoginActivity extends AppCompatActivity {
     }
     public void goCreateAccount(View view){
 
-        Intent intent = new Intent(this,CreateAccountActivity.class);
+        Intent intent = new Intent(this, CreateAccountActivity.class);
         startActivity(intent);
 
+    }
+
+    public void login(View view) {
+        Intent intent =new Intent(this, ContainerActivity.class);
+        startActivity(intent);
     }
 }
