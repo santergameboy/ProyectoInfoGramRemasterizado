@@ -1,6 +1,7 @@
 package com.example.infgra.adapter;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +13,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.infgra.R;
 import com.example.infgra.moda.Image;
+import com.example.infgra.view.ImageDetailActivity;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -42,10 +45,19 @@ public class CardViewAdapter extends RecyclerView.Adapter <CardViewAdapter.CardV
     public void onBindViewHolder(@NonNull CardViewHolder holder, int position) {
         Image image = images.get(position);
         //set imagen
-
+        Picasso.get().load(image.getUrlImagen()).into(holder.imageCardView);
         holder .usernameCardView.setText(image.getUsername());
         holder .cantidadDiasCardView.setText(image.getCantidadDias());
         holder .cantidadMeGustaCardView.setText(image.getCantidadMeGustas());
+
+        //onclicklistener
+        holder.imageCardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(activity, ImageDetailActivity.class);
+                activity.startActivity(intent);
+            }
+        });
 
 
     }
